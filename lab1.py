@@ -3,7 +3,6 @@ lab1.py - Demonstrates Python basics for Lab Assignment 1.
 Includes variables, functions, loops, and classes for Pylint testing.
 """
 
-
 # Global variables
 STUDENT = "Rutvi"
 ROLL_NO = 22110227
@@ -35,15 +34,15 @@ def square_numbers(numbers: list[int]) -> None:
         print(f"{num}^2 = {num * num}")
 
 
-def list_subjects(subjects: list[str]) -> None:
+def list_subjects(subject_list: list[str]) -> None:
     """
     Display the subjects taken by the student.
 
     Args:
-        subjects (list[str]): List of subject names.
+        subject_list (list[str]): List of subject names.
     """
     print("\nSubjects enrolled:")
-    for subject in subjects:
+    for subject in subject_list:
         print(f"- {subject}")
 
 
