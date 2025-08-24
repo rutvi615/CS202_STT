@@ -1,7 +1,4 @@
-"""
-example.py - Simple Python program for Lab Assignment 1.
-Covers variables, functions, lists, loops, and class usage.
-"""
+
 
 # Global variables
 STUDENT = "Rutvi"
