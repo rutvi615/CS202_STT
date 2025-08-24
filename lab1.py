@@ -1,3 +1,7 @@
+"""
+lab1.py - Demonstrates Python basics for Lab Assignment 1.
+Includes variables, functions, loops, and classes for Pylint testing.
+"""
 
 
 # Global variables
